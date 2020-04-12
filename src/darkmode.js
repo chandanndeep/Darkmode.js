@@ -12,6 +12,7 @@ export default class Darkmode {
       left: 'unset',
       time: '0.3s',
       mixColor: '#fff',
+      textcolor: '#333',
       backgroundColor: '#fff',
       buttonColorDark: '#100f2c',
       buttonColorLight: '#fff',
@@ -64,6 +65,7 @@ export default class Darkmode {
         position: fixed;
         border-radius: 50%;
         border:none;
+        color: ${options.textcolor};
         right: ${options.right};
         bottom: ${options.bottom};
         left: ${options.left};
